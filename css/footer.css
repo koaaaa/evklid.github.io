@@ -1,0 +1,153 @@
+.footer {
+    margin-top: 100px;
+    padding-bottom: 80px;
+    background-color: #222222;
+    color: #cacaca;
+}
+
+.footer_flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_logo {
+    margin-top: 48px;
+    margin-bottom: 19px;
+}
+
+.footer_ul {
+    line-height: 35px;
+    margin-bottom: 110px;
+    font-size: 20px;
+}
+
+.footer_ul-a {
+    transition: 300ms;
+}
+
+.footer_ul-a:hover {
+    transform: translate(5px, -5px);
+}
+
+.footer_social {
+    display: flex;
+}
+
+.footer_fb {
+    display: block;
+    background-image: url('../img/fb.svg');
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    margin-right: 25px;
+    transition: 500ms;
+}
+
+.footer_fb:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.footer_fb:focus {
+    outline: 1px solid white;
+}
+
+.footer_vk {
+    display: block;
+    background-image: url('../img/vk.svg');
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    margin-right: 25px;
+    transition: 500ms;
+}
+
+.footer_vk:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.footer_vk:focus {
+    outline: 1px solid white;
+}
+
+.footer_inst {
+    display: block;
+    background-image: url('../img/instagram.svg');
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.footer_inst:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.footer_inst:focus {
+    outline: 1px solid white;
+}
+
+.footer_margin {
+    margin-left: 130px;
+}
+
+.footer_h2 {
+    font-size: 48px;
+    margin-bottom: 31px;
+    margin-top: 57px;
+}
+
+.footer_input {
+    height: 60px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+}
+
+.footer_input-2 {
+    height: 150px;
+    padding-left: 25px;
+    padding-top: 22px;
+    resize: none;
+}
+
+.property {
+    width: 570px;
+    background-color: #414141;
+    border: none;
+}
+
+.footer_button {
+    background-color: #ff9900;
+    border: none;
+    color: white;
+    margin-top: 31px;
+    padding: 20px 65px;
+    transition: 500ms;
+}
+
+.footer_button:hover {
+    background-color: rgba(255, 153, 0, 0.6);
+}
+
+.footer_button:active {
+    background-color: #e1670e;
+    outline: none;
+}
+
+.footer_checkbox {
+    margin-left: 13px;
+    font-size: 17px;
+}
+
+.footer_checkbox-input {
+    margin-right: 5px;
+}
+
+.footer_text {
+    max-width: 363px;
+    max-height: 320px;
+    font-size: 18px;
+    line-height: 35px;
+    margin-top: 126px;
+}

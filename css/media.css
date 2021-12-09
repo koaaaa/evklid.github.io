@@ -1,0 +1,762 @@
+@media (min-width: 1920px) and (max-width: 3840px) {
+    .container {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .container {
+        max-width: 924px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .menu-li:hover {
+        color: #FF9900;
+    }
+
+    .logo {
+        display: block;
+        margin: 0 auto;
+        width: 150px;
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
+
+    .header_burger {
+        display: block;
+        background-image: url('../img/Burger.svg');
+        background-repeat: no-repeat;
+        background-color: white;
+        position: absolute;
+        width: 30px;
+        height: 23px;
+        border: none;
+        margin-top: 39px;
+        padding: 0;
+        transition: 300ms;
+    }
+
+    .header_burger:hover {
+        background-image: url('../img/Burger-hover.svg');
+    }
+
+    .header_burger:active {
+        background-image: url('../img/Burger-active.svg');
+    }
+
+    .header_burger:focus {
+        outline: none;
+    }
+
+    .header-nav-ul {
+        display: none;
+    }
+
+    .header-search {
+        display: block;
+        border: none;
+        float: right;
+        margin-top: -57px;
+        padding: 0;
+        background-color: white;
+    }
+
+    .section-project_heading {
+        font-size: 60px;
+        line-height: 73px;
+    }
+
+    .section-project_text {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .section-project_button {
+        margin-bottom: 65px;
+    }
+
+    .about-us_us {
+        margin-bottom: 38px;
+    }
+
+    .about-us {
+        margin: 0;
+        margin-bottom: 50px;
+    }
+
+    .about-us_container {
+        display: block;
+    }
+
+    .about-us_position {
+        margin-bottom: 50px;
+    }
+
+    .about-us_block {
+        min-height: 640px;
+    }
+
+    .about-us_background {
+        padding-left: 44px;
+        padding-right: 50px;
+    }
+
+    .about-us_text1 {
+        margin-right: 158px;
+        line-height: 32px;
+    }
+
+    .about-us_button {
+        margin-left: 0;
+    }
+
+    .about-us_block1, .about-us_block2 {
+        max-width: 924px;
+        max-height: 295px;
+        margin-left: 0;
+    }
+
+    .work_consultation-container {
+        background-size: 437px 689px;
+    }
+
+    .work_container-text {
+        margin-right: 487px;
+    }
+
+    .work_p {
+        margin-bottom: 30px;
+        max-width: 437px;
+    }
+
+    .work-image-1 {
+        height: 689px;
+        width: 437px;
+        margin-left: 50px;
+    }
+
+    .work-image-2 {
+        height: 689px;
+        width: 437px;
+        margin-left: 50px;
+    }
+
+    .work-image-3 {
+        height: 689px;
+        width: 437px;
+        margin-left: 50px;
+    }
+
+    .work-image-4 {
+        height: 689px;
+        width: 437px;
+        margin-left: 50px;
+    }
+
+    .questions_h3 {
+        font-size: 20px;
+    }
+
+    .accordion-item__text {
+        max-width: 920px;
+    }
+
+    .footer_text {
+        position: absolute !important;
+        clip: rect(1px 1px 1px 1px);
+        clip: rect(1px, 1px, 1px, 1px);
+        padding: 0 !important;
+        border: 0 !important;
+        height: 1px !important;
+        width: 1px !important;
+        overflow: hidden;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .header-nav-ul {
+        display: none;
+    }
+
+    .logo {
+        display: block;
+        margin: 0 auto;
+        width: 150px;
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
+
+    .header_burger {
+        display: block;
+        background-image: url('../img/Burger.svg');
+        background-repeat: no-repeat;
+        background-color: white;
+        position: absolute;
+        width: 30px;
+        height: 23px;
+        border: none;
+        margin-top: 39px;
+        padding: 0;
+        transition: 300ms;
+    }
+
+    .header_burger:hover {
+        background-image: url('../img/Burger-hover.svg');
+    }
+
+    .header_burger:active {
+        background-image: url('../img/Burger-active.svg');
+    }
+
+    .header_burger:focus {
+        outline: none;
+    }
+
+    .header-search {
+        display: block;
+        border: none;
+        float: right;
+        margin-top: -57px;
+        padding: 0;
+        background-color: white;
+    }
+
+    .section {
+        height: 768px;
+    }
+
+    .section-slide {
+        padding-top: 191px;
+        padding-left: 49px;
+    }
+
+    .section-project_heading {
+        font-size: 60px;
+        line-height: 73px;
+    }
+
+    .section-project_text {
+        font-size: 20px;
+    }
+
+    .section-project_button {
+        margin-bottom: 30px;
+    }
+
+    .about-us_container {
+        display: block;
+    }
+
+    .about-us {
+        margin-right: 0;
+    }
+
+    .about-us_position {
+        margin-bottom: 50px;
+    }
+
+    .about-us_block {
+        min-height: 650px;
+    }
+
+    .about-us_block1, .about-us_block2 {
+        margin-left: 0;
+        background-position: 35px;
+        background-size: 110px;
+        padding: 37px 38px 42px 178px;
+    }
+
+    .work_a:not(:last-child) {
+        margin-right: 155px;
+    }
+
+    .work_consultation {
+        position: relative;
+        flex-direction: column;
+    }
+
+    .work_consultation-container {
+        margin-right: 0;
+        order: 2;
+        width: 100%;
+    }
+
+    .work_consultation::after {
+        margin-left: 0;
+        height: 284px;
+        width: 100%;
+        background-size: 100%;
+        margin-bottom: 40px;
+    }
+
+    .work_container-text {
+        padding-top: 322px;
+    }
+
+    .work_h3 {
+        margin-top: 38px;
+    }
+
+    .work_p {
+        margin-bottom: 40px;
+        max-width: 667px;
+        height: 352px;
+    }
+
+    .work-flex {
+        flex-direction: column;
+    }
+
+    .work-block {
+        order: 2;
+    }
+
+    .work-image-1 {
+        height: 284px;
+        width: 668px;        
+        order: 1;
+        margin-left: 0;
+    }
+
+    .work-image-2 {
+        height: 284px;
+        width: 668px; 
+        order: 1;
+        margin-left: 0;
+    }
+
+    .work-image-3 {
+        height: 284px;
+        width: 668px; 
+        order: 1;
+        margin-left: 0;
+    }
+
+    .work-image-4 {
+        height: 284px;
+        width: 668px; 
+        order: 1;
+        margin-left: 0;
+    }
+
+    .questions_h3 {
+        font-size: 20px;
+    }
+
+    .questions_plus {
+        background-position: center;
+    }
+
+    .accordion-item__text {
+        max-width: 667px;
+    }
+
+    .footer_container {
+        margin-top: 609px;
+        position: absolute;
+    }
+
+    .footer_margin {
+        margin: 0;
+        padding-bottom: 265px;
+    }
+
+    .footer_ul {
+        position: absolute !important;
+        clip: rect(1px 1px 1px 1px);
+        clip: rect(1px, 1px, 1px, 1px);
+        padding: 0 !important;
+        border: 0 !important;
+        height: 1px !important;
+        width: 1px !important;
+        overflow: hidden;
+    }
+
+    .footer_text {
+        position: absolute !important;
+        clip: rect(1px 1px 1px 1px);
+        clip: rect(1px, 1px, 1px, 1px);
+        padding: 0 !important;
+        border: 0 !important;
+        height: 1px !important;
+        width: 1px !important;
+        overflow: hidden;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    h2 {
+        margin-top: 39px;
+        font-size: 24px;
+    }
+
+    br {
+        display: none;
+    }
+
+    .container {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .menu {
+        width: 200px;
+        font-size: 14px;
+        top: 48px;
+        right: 0;
+        left: auto;
+        transform: translateX(101%);
+    }
+
+    .logo {
+        width: 97px;
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+
+    .header_burger {
+        display: block;
+        float: right;
+        width: 25px;
+        height: 19px;
+        padding: 0;
+        margin-top: 13px;
+        border: none;
+        background-image: url('../img/Burger.svg');
+        background-repeat: no-repeat;
+        background-size: 25px 19px;
+        background-color: white;
+    }
+
+    .header_burger:hover {
+        background-image: url('../img/Burger-hover.svg');
+    }
+
+    .header_burger:active {
+        background-image: url('../img/Burger-active.svg');
+    }
+
+    .header_burger:focus {
+        outline: none;
+    }
+
+    .header-nav-ul {
+        display: none;
+    }
+
+    .header-search {
+        position: absolute !important;
+        clip: rect(1px 1px 1px 1px);
+        clip: rect(1px, 1px, 1px, 1px);
+        padding: 0 !important;
+        border: 0 !important;
+        height: 1px !important;
+        width: 1px !important;
+        overflow: hidden;
+    }
+
+    .section {
+        height: 307px;
+    }
+
+    .section-slide {
+        padding-top: 32px;
+        padding-left: 22px;
+    }
+
+    .section-project_heading {
+        max-width: 247px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .section-project_text {
+        max-width: 247px;
+        margin-top: 6px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .section-project_button {
+        padding: 12px 20px;
+        margin-top: 34px;
+        margin-bottom: 40px;
+        font-size: 12px;
+    }
+
+    .about-us_container {
+        display: block;
+        min-height: auto;
+    }
+
+    .about-us {
+        font-size: 14px;
+        line-height: 28px;
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+
+    .about-us_position {
+        min-height: auto;
+    }
+
+    .about-us_block {
+        background-size: 100%;
+        min-height: 60vw;
+    }
+
+    .about-us_background {
+        position: static;
+        background-color: transparent;
+        flex-direction: column;
+        align-items: self-start;
+        height: auto;
+        padding: 0;
+    }
+
+    .about-us_text1 {
+        color: black;
+        font-weight: 400;
+    }
+
+    .about-us_button {
+        color: #FF9900;
+        margin: 0;
+        margin-top: 8px;
+        padding: 12px 50px;
+        font-size: 12px;
+    }
+
+    .about-us_block1 {
+        margin-top: 40px;
+    }
+
+    .about-us_block1, .about-us_block2 {
+        border: none;
+        background-size: 64px 49px;
+        background-position: 0 top;
+        padding: 0;
+        padding-top: 77px;
+        margin-left: 0;
+    }
+
+    .about-us_li-h3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .about-us_li-p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .work_a:not(:last-child) {
+        margin-right: 42px;
+    }
+    
+    .work_button-a {
+        padding: 0;
+    }
+
+    .work_consultation {
+        margin-top: 17px;
+        flex-direction: column;
+    }
+
+    .work_consultation-container {
+        order: 2;
+        margin: 0;
+        width: 100%;
+    }
+
+    .work_consultation::after {
+        height: 160px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .work_container-text {
+        padding-top: 180px;
+    }
+
+    .work_h3 {
+        font-size: 18px;
+        margin-top: 16px;
+    }
+
+    .work_p {
+        font-size: 14px;
+        margin-bottom: 25px;
+        max-width: 290px;
+    }
+
+    .work-flex {
+        flex-direction: column;
+    }
+
+    .work-block {
+        order: 2;
+    }
+
+    .work-image-1 {
+        height: 160px;
+        width: 290px;        
+        order: 1;
+        margin-left: 0;
+    }
+
+    .work-image-2 {
+        height: 160px;
+        width: 290px;  
+        order: 1;
+        margin-left: 0;
+    }
+
+    .work-image-3 {
+        height: 160px;
+        width: 290px; 
+        order: 1;
+        margin-left: 0;
+    }
+
+    .work-image-4 {
+        height: 160px;
+        width: 290px; 
+        order: 1;
+        margin-left: 0;
+    }
+
+    .work_button {
+        margin-top: 22px;
+    }
+
+    .work_button-1 {
+        padding: 14px 50px;
+        font-size: 12px;
+    }
+
+    .work_button-2 {
+        padding: 14px 29px;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .questions {
+        margin-bottom: 0;
+    }
+
+    .questions_button {
+        padding: 0;
+    }
+
+    .questions_h3 {
+        font-size: 14px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        line-height: 24px;
+    }
+
+    .questions_plus {
+        margin-top: 0;
+        background-size: 30px 30px;
+        margin-top: 50px;
+    }
+
+    .accordion-item__title {
+        font-size: 14px;
+    }
+
+    .accordion-item__text {
+        font-size: 14px;
+        max-width: 270px;
+    }
+
+    .footer {
+        margin-top: 39px;
+        padding-bottom: 25px;
+    }
+
+    .footer_flex {
+        flex-direction: column;
+    }
+
+    .footer_container {
+        order: 2;
+    }
+
+    .footer_margin {
+        text-align: center;
+    }
+
+    .footer_h2 {
+        font-size: 24px;
+    }
+
+    .footer_margin {
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    .footer_ul {
+        display: none;
+    }
+
+    .footer_text {
+        display: none;
+    }
+
+    .footer_input, .footer_input-2 {
+        max-width: 290px;
+    }
+
+    .footer_union {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer_button {
+        margin-top: 25px;
+        padding: 12px 23px;
+        font-size: 12px;
+        align-self: center;
+        margin-bottom: 15px;
+    }
+
+    .footer_checkbox {
+        border-bottom: 1px solid #595959;
+        padding-bottom: 25px;
+    }
+
+    .footer_logo {
+        max-width: 131px;
+        margin-top: 23px;
+        margin-bottom: 16px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .footer_social {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer_fb, .footer_vk {
+        margin-right: 15px;
+    }
+
+    .footer_fb, .footer_vk, .footer_inst {
+        width: 35px;
+        height: 35px;
+        background-size: 35px;
+    }
+}

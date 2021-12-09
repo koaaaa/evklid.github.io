@@ -1,0 +1,147 @@
+.work_h2 {
+    margin-bottom: 55px;
+}
+
+.work_ul {
+    display: flex;
+}
+
+.work_a {
+    transition: 300ms;
+}
+
+.work_a:not(:last-child) {
+    margin-right: 85px;
+}
+
+.work_button-a {
+    border: none;
+    background-color: transparent;
+}
+
+.work_button-a:hover {
+    color: #ff9900;
+    transform: scale(1.1, 1.1);
+}
+
+.work_button-a:active {
+    color: #e1670e;
+}
+
+.work_button-a:focus {
+    color: #ff9900;
+}
+
+.work_button-a-active {
+    color: #ff9900;
+}
+
+.work_consultation {
+    display: none;
+    line-height: 32px;
+    margin-top: 50px;
+}
+
+.work-consultatiton-active {
+    display: block;
+}
+
+.work_consultation-container {
+    margin-right: 10%;
+    width: 45%;
+}
+
+.work-flex {
+    display: flex;
+    width: 1770px;
+}
+
+.work-image-1 {
+    height: 460px;
+    width: 870px;
+    background-image: url('../img/Rectangle-18.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 142px;
+}
+
+.work-image-2 {
+    height: 460px;
+    width: 870px;
+    background-image: url('../img/Rectangle-18.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 142px;
+}
+
+.work-image-3 {
+    height: 460px;
+    width: 870px;
+    background-image: url('../img/Rectangle-19.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 142px;
+}
+
+.work-image-4 {
+    height: 460px;
+    width: 870px;
+    background-image: url('../img/Rectangle-20.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 142px;
+}
+
+.work_h3 {
+    font-size: 24px;
+}
+
+.work_p {
+    margin-bottom: 90px;
+    max-width: 758px;
+}
+
+.work_button-1 {
+    background-color: #ff9900;
+    border: 1px solid #ff9900;
+    padding: 15px 40px;
+    color: white;
+    transition: 500ms;
+}
+
+.work_button-1:hover {
+    background-color: rgba(255, 153, 0, 0.6);
+}
+
+.work_button-1:active {
+    background-color: #e1670e;
+    outline: none;
+}
+
+.work_button-1:focus {
+    border: 1px solid #ff9900;
+}
+
+.work_button-2 {
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 15px 40px;
+    margin-left: 30px;
+    transition: 500ms;
+}
+
+.work_button-2:hover {
+    background-color: #666666;
+    color: white;
+}
+
+.work_button-2:active {
+    background-color: #000;
+    color: white;
+    outline: none;
+}
+
+.work_button-2:focus {
+    border: 1px solid #ff9900;
+}
+    
